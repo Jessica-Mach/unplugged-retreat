@@ -100,7 +100,71 @@ textarea {
 
 
 /* ==========================================================================
-    Header and Footer Base Styles - Mobile
+    General Styles - Mobile
+    ========================================================================== */
+html {
+  font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+ 
+ul, 
+ol {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+  list-style-type: none;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;  
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  font-weight: normal;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em; 
+  font-weight: normal;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 1.125em;
+  font-weight: normal;
+}
+ 
+p {
+ font-size: .875em;
+ line-height: 1.285;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 0 20px;
+}
+/* ==========================================================================
+    Header Styles - Mobile
     ========================================================================== */
 header,
 footer {
@@ -138,73 +202,12 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  list-style-type: none;
   padding: 0;
 }
 
-/* ----- footer ----- */
-
-footer {
-  flex-direction: column;
-}
-
-footer p {
-  margin: 0;
-  text-align: center;
-}
-
-footer h4 {
-  text-align: center;
-}
-
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0 0 0;
-}
-
-footer .contact {
-  margin-bottom: 50px;
-}
-
-footer .social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-footer .social-icons p {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.footer-content .contact h4 {
-  font-style: normal;
-}
-
-.footer-content .contact p {
-  font-style: normal;
-}
-
-
-footer .copyright {
-  margin: 36px 0 10px 0;
-}
-
-footer .copyright p {
-  text-align: center;
-}
-
-
-
 /* ==========================================================================
-    Home Page - Mobile
+    Home Page - Main - Mobile
     ========================================================================== */
-
-.content-wrapper {
-  width: 90%;
-  margin: 0 20px;
-}
 
 /* ----- hero area ----- */
 .hero-area {
@@ -238,7 +241,8 @@ aside {
 }
 
 .form input{
-
+  width: 100%;
+  margin: 18px 0;
 }
 
 /* ----- features - descriptive icons with supporting paragraphs ----- */
@@ -250,7 +254,8 @@ aside {
 }
 
 .features h2 {
-  margin: 50px 35px 10px 0;
+  width: 100%;
+  margin: 50px 0 10px 0;
 }
 
 .features article {
@@ -291,6 +296,52 @@ aside {
 
 .reviews article img {
   width: 100%;
+}
+
+/* ==========================================================================
+    Footer Styles - Mobile
+    ========================================================================== */
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
+
+footer h4 {
+  text-align: center;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0 0 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+footer .copyright {
+  margin: 36px 0 10px 0;
+}
+
+footer .copyright p {
+  text-align: center;
 }
 
 /* ==========================================================================
