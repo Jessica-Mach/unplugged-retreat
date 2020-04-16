@@ -155,11 +155,12 @@ p {
 }
  
 img {
-
+  width: 100%;
 }
  
 figure {
- 
+  width: 100%;
+  margin: 0;
 }
  
 address {
@@ -191,6 +192,10 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 15px 0;
+}
+
+header a {
+  max-width: 220px;
 }
 
 .header-divider {
@@ -327,6 +332,7 @@ input[type=button] {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: auto;
 }
 
 .features article p {
@@ -363,10 +369,6 @@ input[type=button] {
 
 .reviews p {
   margin: 0 0 35px 0;
-}
-
-.reviews article img {
-  width: 100%;
 }
 
 /* ==========================================================================
@@ -464,14 +466,6 @@ footer .copyright p {
 
 .contact-section p {
   padding-bottom: 18px;
-  margin: 0;
-}
-
-.map {
-  width: 100%;
-}
-
-figure {
   margin: 0;
 }
 
@@ -610,13 +604,13 @@ figure {
 
     header .content-wrapper {
       width: 83%;   
-      justify-content: flex-start;
+      justify-content: space-between;
       flex-flow: row nowrap;
       margin: 25px 64px;
     }
 
     .header-divider {
-      width: 35%;
+      width: 0;
     } 
 
     header nav {
@@ -631,7 +625,7 @@ figure {
     }
 
     header a {
-      width: 38%;
+      width: 34.5%;
       margin: 6px 0;
     }
 
@@ -912,14 +906,8 @@ figure {
     ========================================================================== */
     header .content-wrapper {
       width: 80%;   
-      justify-content: flex-start;
-      flex-flow: row nowrap;
       margin: 18px 10%;
     }
-
-    .header-divider {
-      width: 50%;
-    } 
 
     header nav {
       width: 16.7%;
