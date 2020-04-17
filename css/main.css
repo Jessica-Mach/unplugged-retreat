@@ -880,6 +880,10 @@ footer .copyright p {
       width: 45%;
       margin: 0 10px 0 0;
     }
+
+    .map {
+      padding-bottom: 45%;
+    }
  
     .contact-section h2 {
       width: 87.5%;
@@ -1106,6 +1110,10 @@ footer .copyright p {
 
     #mission-right {
       margin: 0 18px 0 30px;
+    }
+
+    .map {
+      padding-bottom: 37.5%;
     }
 
     .contact-section h2 {
