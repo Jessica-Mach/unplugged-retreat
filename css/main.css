@@ -292,11 +292,11 @@ input[type=button] {
 
 /* ----- features - descriptive icons with supporting paragraphs ----- */
 .features {
-  height: 1550px;
+  height: 1500px;
   background-image: url("../img/rawpixel-800820-unsplash1.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 1550px;
+  background-size: auto 1500px;
 }
 
 .features .features-items {
@@ -308,7 +308,7 @@ input[type=button] {
 
 .features h2 {
   width: 100%;
-  padding: 50px 0;
+  padding: 54px 0 64px 0;
 }
 
 .features .feature-items {
@@ -326,9 +326,9 @@ input[type=button] {
   flex-flow: column nowrap;
 }
 
-.fontawesome-icon {
-  width: 90px;
-  height: 90px;
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .fontawesome-icon img {
@@ -339,7 +339,7 @@ input[type=button] {
 }
 
 .features article p {
-  padding: 36px 52px 44px 40px;
+  padding: 0px 52px 54px 40px;
   margin: 0;
   text-align: center;
 }
@@ -713,7 +713,7 @@ footer .copyright p {
 
     .features h2 {
       width: 100%;
-      padding: 90px 0 0 0;
+      padding: 90px 0 36px 0;
       font-size: 2.2em;
     }
 
@@ -733,12 +733,13 @@ footer .copyright p {
       margin-right: 0;
     }
 
-    .fontawesome-icon {
-      padding-top: 35px;
+    .features i {
+      font-size: 4.25em;
+      margin-bottom: 30px;
     }
 
     .features article p {
-      padding: 35px 54px 0 54px;
+      padding: 0 54px 50px 54px;
     }
 
     .reviews .content-wrapper {
@@ -1019,12 +1020,12 @@ footer .copyright p {
 
     .features h2 {
       width: 100%;
-      padding: 0 0 45px 0;
+      padding: 0 0 90px 0;
     }
 
     .features article p {
       width: 59%;
-      padding: 18px 62px 0 62px;
+      padding: 0 62px 62px 62px;
     }
 
     .features article {
