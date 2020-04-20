@@ -292,23 +292,11 @@ input[type=button] {
 
 /* ----- features - descriptive icons with supporting paragraphs ----- */
 .features {
-  height: 1500px;
   background-image: url("../img/rawpixel-800820-unsplash1.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 1500px;
-}
-
-.features .features-items {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-flow: row wrap;
-}
-
-.features h2 {
-  width: 100%;
-  padding: 54px 0 64px 0;
+  background-size: cover;
+  padding: 54px 0 2px 0;
 }
 
 .features .feature-items {
@@ -316,6 +304,11 @@ input[type=button] {
   justify-content: center;
   align-content: center;
   flex-flow: column wrap;
+}
+
+.features h2 {
+  width: 100%;
+  padding: 0 0 64px 0;
 }
 
 .features article {
@@ -715,13 +708,12 @@ footer .copyright p {
     }
 
     .features {
-      height: 864px;
-      background-size: auto 864px;
+      padding: 90px 0 40px 0;
 }
 
     .features h2 {
       width: 100%;
-      padding: 90px 0 36px 0;
+      padding: 0 0 36px 0;
       font-size: 2.2em;
     }
 
@@ -1018,12 +1010,7 @@ footer .copyright p {
     }
 
     .features {
-      height: 807px;
-      background-size: 100% 807px;
-    }
-
-    .features .content-wrapper {
-      padding: 90px 0;
+      padding: 100px 0 38px 0;
     }
 
     .features h2 {
