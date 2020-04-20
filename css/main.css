@@ -413,8 +413,16 @@ footer .social-icons p {
   width: 40px;
   height: 40px;
   background-color: #527158;
-  border-radius: 50px;
+  border-radius: 50px; 
+}
 
+footer .social-icons i {
+  font-size: 1.2em;
+  padding-top: 3px;
+}
+
+footer .fa-instagram {
+  padding-left: 2px;
 }
 
 
